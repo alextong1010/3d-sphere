@@ -1,7 +1,6 @@
-import * as THREE from 'three';
-import "./style.css"
-import gsap from "gsap"
-import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls'
+import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/0.149.0/three.module.js';
+import gsap from "https://cdn.skypack.dev/gsap"
+import {OrbitControls} from 'https://unpkg.com/three@0.112.0/examples/jsm/controls/OrbitControls.js'
 
 //scene
 const scene = new THREE.Scene();
